@@ -1,0 +1,91 @@
+.montserrat-thin {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.montserrat-light {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.montserrat-regular {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.montserrat-medium {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.montserrat-bold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.montserrat-black {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.montserrat-thin-italic {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.montserrat-light-italic {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.montserrat-regular-italic {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.montserrat-medium-italic {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.montserrat-bold-italic {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.montserrat-black-italic {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+p:hover {
+	color: red;
+}
+* {
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 300ms;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.active {
+	color: red;
+}
+
+#hero {
+	color: white;
+}
