@@ -21,7 +21,7 @@
 	<body
 		class="relative overflow-x-hidden scroll-smooth montserrat-regular bg-black text-white/80">
 		<!-- Navigation Bar -->
-		<nav class="hidden lg:block w-full pt-12 h-[8vh]">
+		<nav class="relative z-10 hidden lg:block w-full pt-12 h-[8vh]">
 			<div
 				class="flex w-full justify-between items-center px-64">
 				<img
@@ -38,7 +38,8 @@
 			</div>
 		</nav>
 		<!-- Breakpoint -->
-		<nav class="absolute z-10 block lg:hidden w-full h-screen">
+		<nav
+			class="relative z-10 absolute block lg:hidden w-full h-screen">
 			<div class="absolute top-0 w-full pb-12 pt-6">
 				<img
 					src="./assets/icon-w.png"
